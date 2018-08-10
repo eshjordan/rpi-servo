@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServoApp", "ServoApp\ServoApp\ServoApp.csproj", "{46803275-8548-4867-B926-28FDE577AFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServoApp.Desktop", "ServoApp\ServoApp.Desktop\ServoApp.Desktop.csproj", "{704F77FD-BDE2-4F20-A5B3-4E03558FD18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46803275-8548-4867-B926-28FDE577AFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46803275-8548-4867-B926-28FDE577AFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46803275-8548-4867-B926-28FDE577AFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46803275-8548-4867-B926-28FDE577AFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704F77FD-BDE2-4F20-A5B3-4E03558FD18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704F77FD-BDE2-4F20-A5B3-4E03558FD18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704F77FD-BDE2-4F20-A5B3-4E03558FD18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704F77FD-BDE2-4F20-A5B3-4E03558FD18A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8234327-D8ED-454F-A662-CB3D6D2F6649}
+	EndGlobalSection
+EndGlobal

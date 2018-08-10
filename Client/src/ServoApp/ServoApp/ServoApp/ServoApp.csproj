@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ServoApp</RootNamespace>
+    <PackageVersion>1.0</PackageVersion>
+    <Title>ServoApp</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Description of ServoApp</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.4.1" />
+  </ItemGroup>
+  
+</Project>

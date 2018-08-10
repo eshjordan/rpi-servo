@@ -1,0 +1,466 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Eto.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Eto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Eto.dll": {}
+        },
+        "build": {
+          "build/Eto.Forms.targets": {}
+        }
+      },
+      "Eto.Platform.Gtk2/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Gtk2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Gtk2.dll": {}
+        }
+      },
+      "Eto.Platform.Mac64/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Mac64.dll": {},
+          "lib/net45/MonoMac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Mac64.dll": {},
+          "lib/net45/MonoMac.dll": {}
+        },
+        "build": {
+          "build/Eto.Platform.Mac64.targets": {}
+        }
+      },
+      "Eto.Platform.Wpf/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Wpf.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "ServoApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Eto.Forms": "2.4.1"
+        },
+        "compile": {
+          "bin/placeholder/ServoApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServoApp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "Eto.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Eto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Eto.dll": {}
+        },
+        "build": {
+          "build/Eto.Forms.targets": {}
+        }
+      },
+      "Eto.Platform.Gtk2/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Gtk2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Gtk2.dll": {}
+        }
+      },
+      "Eto.Platform.Mac64/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Mac64.dll": {},
+          "lib/net45/MonoMac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Mac64.dll": {},
+          "lib/net45/MonoMac.dll": {}
+        },
+        "build": {
+          "build/Eto.Platform.Mac64.targets": {}
+        }
+      },
+      "Eto.Platform.Wpf/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Wpf.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "ServoApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Eto.Forms": "2.4.1"
+        },
+        "compile": {
+          "bin/placeholder/ServoApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServoApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eto.Forms/2.4.1": {
+      "sha512": "CjrzRt4w51I7Lrx3KM7atwH+5BAU+rIsrI+Y6brxwbvWVHCh22SMi+dwHavODkqi22VKUdreZGg3l1QmTPEt1w==",
+      "type": "package",
+      "path": "eto.forms/2.4.1",
+      "files": [
+        "LICENSE.txt",
+        "build/Eto.Forms.targets",
+        "eto.forms.2.4.1.nupkg.sha512",
+        "eto.forms.nuspec",
+        "lib/netstandard1.0/Eto.dll",
+        "lib/netstandard1.0/Eto.xml"
+      ]
+    },
+    "Eto.Platform.Gtk2/2.4.1": {
+      "sha512": "U4VeeL3ON1yPvjno+Fn9KoIsMGGQQ7wVSwtgZQia/cCGTb1QBp7W7wah0FIsssma5FoI7sxkxgm59+DZjnCSoQ==",
+      "type": "package",
+      "path": "eto.platform.gtk2/2.4.1",
+      "files": [
+        "LICENSE.txt",
+        "eto.platform.gtk2.2.4.1.nupkg.sha512",
+        "eto.platform.gtk2.nuspec",
+        "lib/net45/Eto.Gtk2.dll"
+      ]
+    },
+    "Eto.Platform.Mac64/2.4.1": {
+      "sha512": "7RJwTUiP0+/ckvDQrPIGzfPPKpFcCSFS4NKvpL0ixDOJnVwEanmhOppr8rpZZ3P1eYccpJzXaPSow6p9P9OYuw==",
+      "type": "package",
+      "path": "eto.platform.mac64/2.4.1",
+      "files": [
+        "LICENSE.txt",
+        "MonoMac-License.txt",
+        "build/Eto.Platform.Mac64.targets",
+        "build/Icon.icns",
+        "build/Info.plist",
+        "build/Launcher32",
+        "build/Launcher64",
+        "build/MacTemplate.targets",
+        "build/README.txt",
+        "build/RunConfiguration.Default.targets",
+        "build/RunConfiguration.Mac.targets",
+        "eto.platform.mac64.2.4.1.nupkg.sha512",
+        "eto.platform.mac64.nuspec",
+        "lib/net45/Eto.Mac64.dll",
+        "lib/net45/MonoMac.dll"
+      ]
+    },
+    "Eto.Platform.Wpf/2.4.1": {
+      "sha512": "bVePfBajkdZTXCcDPvY1MGTtJcO/sYK0V+OPwVD3TvruONrZ5NojG0pPHcog3UVUF7xwB9GZqU9b2LWDIK3c/g==",
+      "type": "package",
+      "path": "eto.platform.wpf/2.4.1",
+      "files": [
+        "LICENSE.txt",
+        "eto.platform.wpf.2.4.1.nupkg.sha512",
+        "eto.platform.wpf.nuspec",
+        "lib/net45/Eto.Wpf.dll"
+      ]
+    },
+    "System.ComponentModel/4.3.0": {
+      "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "type": "package",
+      "path": "system.componentmodel/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.3.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Primitives.dll",
+        "lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
+      ]
+    },
+    "ServoApp/1.0.0": {
+      "type": "project",
+      "path": "../ServoApp/ServoApp.csproj",
+      "msbuildProject": "../ServoApp/ServoApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Eto.Platform.Gtk2 >= 2.4.1",
+      "Eto.Platform.Mac64 >= 2.4.1",
+      "Eto.Platform.Wpf >= 2.4.1",
+      "ServoApp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jordan\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jordan\\Documents\\Raspberry Pi\\servo\\rpi-servo\\Client\\src\\ServoApp\\ServoApp\\ServoApp.Desktop\\ServoApp.Desktop.csproj",
+      "projectName": "ServoApp.Desktop",
+      "projectPath": "C:\\Users\\Jordan\\Documents\\Raspberry Pi\\servo\\rpi-servo\\Client\\src\\ServoApp\\ServoApp\\ServoApp.Desktop\\ServoApp.Desktop.csproj",
+      "packagesPath": "C:\\Users\\Jordan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jordan\\Documents\\Raspberry Pi\\servo\\rpi-servo\\Client\\src\\ServoApp\\ServoApp\\ServoApp.Desktop\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jordan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\Jordan\\Documents\\Raspberry Pi\\servo\\rpi-servo\\Client\\src\\ServoApp\\ServoApp\\ServoApp\\ServoApp.csproj": {
+              "projectPath": "C:\\Users\\Jordan\\Documents\\Raspberry Pi\\servo\\rpi-servo\\Client\\src\\ServoApp\\ServoApp\\ServoApp\\ServoApp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Eto.Platform.Gtk2": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "Eto.Platform.Mac64": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "Eto.Platform.Wpf": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
